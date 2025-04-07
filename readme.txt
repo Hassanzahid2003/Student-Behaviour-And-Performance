@@ -1,31 +1,47 @@
-# Student Behavior Analysis Project
+📊 Student Behavior Analysis Project
+🧠 Overview
+This project explores a dataset of student behaviors, academic performance, demographics, and lifestyle factors to uncover patterns that may influence student success. The objective is to provide actionable insights that could help educators and administrators improve student outcomes.
 
-## Overview
+📁 Files
+EDA_on_Student_behaviour_Dataset.ipynb — Jupyter Notebook containing the full exploratory data analysis process.
 
-This project explores a dataset of student behaviors, including academic performance, demographic information, and lifestyle factors. The goal is to identify patterns and insights that could help improve student outcomes.
+📚 Data Source
+The dataset consists of 5,000 rows and 23 columns, capturing:
 
-## Files
+Academic metrics: Attendance, Midterm Score, Final Score
 
-*   **`EDA_on_Student_behaviour_Dataset.ipynb`**: Jupyter Notebook containing the exploratory data analysis.
+Demographics: Gender, Age, Department
 
-## Data Source
+Lifestyle factors: Study hours, Sleep hours, Extracurricular activities, Stress levels
 
-The dataset consists of 5,000 rows and 23 columns, covering various aspects of student life. Key attributes include academic scores (attendance, midterm, final), demographics (gender, age, department), and lifestyle factors (study hours, extracurricular activities, stress levels).
+📈 Exploratory Data Analysis (EDA)
+The notebook performs a comprehensive EDA, including:
 
-## Exploratory Data Analysis (EDA)
+Dataset Overview: Structural summary and initial statistics
 
-The `EDA_on_Student_behaviour_Dataset.ipynb` notebook performs the following analyses:
+Data Cleaning: Handling of missing values and inconsistent data
 
-*   **Dataset Overview**: Examination of the dataset's structure and initial descriptive statistics.
-*   **Data Cleaning**: Identification and handling of missing values.
-*   **Statistical Summaries**: Calculation of descriptive statistics for numerical variables.
+Descriptive Statistics: Summaries of numerical and categorical variables
 
-## Key Insights
+Visualizations:
 
-*   Average attendance is 75.43% with a standard deviation of 14.37%.
-*   Stress levels range from 1 to 10, with a mean of 5.48.
-*   The scatterplot visualization (`image.jpg`) shows the distribution of sleep hours per night across different departments.
+Histograms and box plots for distribution analysis
 
-## Author
+Scatter plots for feature relationships
 
-Hassan
+Correlation heatmaps for identifying strong associations
+
+🔍 Key Insights
+Average Attendance: 75.43% (std: 14.37%)
+
+Mean Stress Level: 5.48 (scale 1–10)
+
+Sleep Analysis: A scatter plot showed the distribution of sleep hours per night across departments, revealing that students in certain departments sleep less on average.
+
+Study vs. Performance: Positive correlation found between study hours and academic scores.
+
+📌 Conclusion
+This project highlights how behavioral and lifestyle data can inform academic interventions. It lays the groundwork for predictive modeling or clustering in future stages.
+
+👤 Author
+Hassan Zahid
